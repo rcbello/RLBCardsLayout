@@ -1,3 +1,3 @@
 # RLBCardsLayout
 A UICollectionViewLayout imitating flipping cards
-![sample](EvenBonyCutworm-mobile.mp4)
+![sample](https://github.com/rcbello/RLBCardsLayout/raw/master/EvenBonyCutworm-mobile.mp4)
