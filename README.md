@@ -1,3 +1,5 @@
 # RLBCardsLayout
 A UICollectionViewLayout imitating flipping cards
-![sample](https://gfycat.com/EvenBonyCutworm  "Sample")
+
+
+![sample](https://dl.dropboxusercontent.com/s/z9qzd2fmlu0ridp/RLBCardsLayoutDemo.gif)
