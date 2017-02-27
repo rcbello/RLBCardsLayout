@@ -1,7 +1,13 @@
 import UIKit
-private let visibleCellCount = 5
-
 class RLBCardsLayout: UICollectionViewLayout {
+    
+    static var visibleCellCount = 5
+    static var heightToWidth: CGFloat = 1.22
+    static var horizontalMargin: CGFloat = 30
+    static var cardYPositionDelta: CGFloat = 40
+    static var cardZPositionDelta: CGFloat = 140
+    
+    
     /**
      Toggles invalidating layout on bounds change behavior.
      Used as a workaround for an issue when the collection view is contained inside a UINavigationController and the scrolling stops between pages when the view is popped or pushed.
@@ -28,11 +34,11 @@ class RLBCardsLayout: UICollectionViewLayout {
 		
 		let bounds = collectionView.bounds
 		let size: CGSize
-		if (bounds.height / (bounds.width - 60)) > 1.22 {
-			let width = (bounds.width - 60)
-			size = CGSize(width: width, height: ceil(width * 1.22))
+		if (bounds.height / (bounds.width - RLBCardsLayout.horizontalMargin * 2)) > RLBCardsLayout.heightToWidth {
+			let width = (bounds.width - RLBCardsLayout.horizontalMargin * 2)
+			size = CGSize(width: width, height: ceil(width * RLBCardsLayout.heightToWidth))
 		} else {
-			size = CGSize(width: ceil(bounds.height/1.22), height: bounds.height)
+			size = CGSize(width: ceil(bounds.height/RLBCardsLayout.heightToWidth), height: bounds.height)
 		}
 		normalItemSize = size
 		
@@ -49,7 +55,7 @@ class RLBCardsLayout: UICollectionViewLayout {
 		guard let collectionView = collectionView, collectionView.contentSize == collectionViewContentSize else { return nil }
 		let bounds = collectionView.bounds
 		let frontRow = max(Int((bounds.maxY-1)/bounds.height), 0 )
-		let threeBack = max(frontRow - visibleCellCount, 0)
+		let threeBack = max(frontRow - RLBCardsLayout.visibleCellCount, 0)
 		let attributes = (threeBack...frontRow).flatMap { row -> UICollectionViewLayoutAttributes? in
 			guard let indexPath = indexPathForIndex(row) else { return nil }
 			return layoutAttributesForItem(at: indexPath)
@@ -97,7 +103,7 @@ class RLBCardsLayout: UICollectionViewLayout {
 		let bounds = collectionView.bounds
 		let index = indexForIndexPath(indexPath)
 		let frontIndex = Int((bounds.maxY)/bounds.height)
-		let backIndex = max(frontIndex - visibleCellCount, 0)
+		let backIndex = max(frontIndex - RLBCardsLayout.visibleCellCount, 0)
 		guard index >= backIndex && index <= frontIndex else {
 			attributes.isHidden = true
 			return attributes
@@ -121,11 +127,11 @@ class RLBCardsLayout: UICollectionViewLayout {
 			attributes.transform3D = transform
 			attributes.alpha = 1+ratio
 		} else {
-			let delta = ratio * floor(size.height/40) * CGFloat(visibleCellCount)
-			transform = CATransform3DTranslate(transform, 0, 0, -(ratio * 140))
+			let delta = ratio * floor(size.height/RLBCardsLayout.cardYPositionDelta) * CGFloat(RLBCardsLayout.visibleCellCount)
+			transform = CATransform3DTranslate(transform, 0, 0, -(ratio * RLBCardsLayout.cardZPositionDelta))
 			transform = CATransform3DTranslate(transform, 0, -delta, 0)
 			attributes.transform3D = transform
-			attributes.alpha = 1 - (ratio/CGFloat(visibleCellCount))
+			attributes.alpha = 1 - (ratio/CGFloat(RLBCardsLayout.visibleCellCount))
 		}
 		return attributes
 	}

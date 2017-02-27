@@ -36,6 +36,9 @@ class ViewController: UICollectionViewController {
         let color = UIColor(red: CGFloat(25*indexPath.row)/255.0, green: CGFloat((indexPath.row % 3)*50)/255.0, blue: CGFloat((indexPath.row % 5)*50)/255.0, alpha: 1)
         
         cell.viewWithTag(1000)?.backgroundColor = color
+        
+        (cell.viewWithTag(1001) as? UILabel)?.text = String(indexPath.row + 1)
+        
         return cell
     }
     

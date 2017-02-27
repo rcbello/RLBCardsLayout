@@ -13,7 +13,7 @@
         <scene sceneID="DcA-rF-mz8">
             <objects>
                 <collectionViewController id="8py-3O-0C0" customClass="ViewController" customModule="RLBCardsLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" dataMode="prototypes" id="qye-oV-SjR">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="qye-oV-SjR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,12 +35,22 @@
                                             <rect key="frame" x="-32" y="23" width="240" height="128"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2T-TF-G5H">
+                                            <rect key="frame" x="39" y="53" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="150"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </view>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="lnB-e2-Zej" secondAttribute="trailing" id="41k-mM-ezU"/>
                                     <constraint firstItem="lnB-e2-Zej" firstAttribute="leading" secondItem="Lum-IB-9IP" secondAttribute="leading" id="5Km-Cr-su5"/>
                                     <constraint firstItem="lnB-e2-Zej" firstAttribute="top" secondItem="Lum-IB-9IP" secondAttribute="top" id="Hkb-lf-B8H"/>
+                                    <constraint firstItem="C2T-TF-G5H" firstAttribute="top" secondItem="Lum-IB-9IP" secondAttribute="top" id="Waj-FQ-AMV"/>
+                                    <constraint firstAttribute="trailing" secondItem="C2T-TF-G5H" secondAttribute="trailing" id="crk-Qy-WSC"/>
+                                    <constraint firstAttribute="bottom" secondItem="C2T-TF-G5H" secondAttribute="bottom" id="mrY-2S-9Ws"/>
+                                    <constraint firstItem="C2T-TF-G5H" firstAttribute="leading" secondItem="Lum-IB-9IP" secondAttribute="leading" id="q0a-8u-Nnb"/>
                                     <constraint firstAttribute="bottom" secondItem="lnB-e2-Zej" secondAttribute="bottom" id="urs-1Y-egb"/>
                                 </constraints>
                             </collectionViewCell>
