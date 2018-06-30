@@ -11,17 +11,22 @@ import UIKit
 
 
 class ViewController: UICollectionViewController {
-
+    
+    private var observer: NSKeyValueObservation?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //make collection view to start from bottom
+        observer = collectionView?.observe(\.contentSize, options:.old , changeHandler: { [unowned self] (collectionView, change) in
+            guard let oldValue = change.oldValue,
+            collectionView.contentSize != oldValue else { return }
+            collectionView.contentOffset.y = collectionView.contentSize.height - collectionView.frame.height
+            
+            //assumes contentSize changes only once
+            self.observer?.invalidate()
+        })
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -33,15 +38,20 @@ class ViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
-        let color = UIColor(red: CGFloat(25*indexPath.row)/255.0, green: CGFloat((indexPath.row % 3)*50)/255.0, blue: CGFloat((indexPath.row % 5)*50)/255.0, alpha: 1)
+        
+        let row = collectionView.numberOfItems(inSection: indexPath.section) - indexPath.row
+        
+        let color = UIColor(red: CGFloat(25*row)/255.0, green: CGFloat((row % 3)*50)/255.0, blue: CGFloat((row % 5)*50)/255.0, alpha: 1)
         
         cell.viewWithTag(1000)?.backgroundColor = color
         
-        (cell.viewWithTag(1001) as? UILabel)?.text = String(indexPath.row + 1)
+        (cell.viewWithTag(1001) as? UILabel)?.text = String(row)
         
         return cell
     }
     
-    
+    deinit {
+        observer?.invalidate()
+    }
 }
 

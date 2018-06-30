@@ -7,19 +7,6 @@ class RLBCardsLayout: UICollectionViewLayout {
     static var cardYPositionDelta: CGFloat = 40
     static var cardZPositionDelta: CGFloat = 140
     
-    
-    /**
-     Toggles invalidating layout on bounds change behavior.
-     Used as a workaround for an issue when the collection view is contained inside a UINavigationController and the scrolling stops between pages when the view is popped or pushed.
-    */
-	var invalidateOnBoundsChange = true //use sparingly?
-        {
-        didSet {
-            if !oldValue && invalidateOnBoundsChange {
-                invalidateLayout()
-            }
-        }
-    }
 	
 	fileprivate var normalItemSize = CGSize.zero {
 		didSet {
@@ -41,7 +28,6 @@ class RLBCardsLayout: UICollectionViewLayout {
 			size = CGSize(width: ceil(bounds.height/RLBCardsLayout.heightToWidth), height: bounds.height)
 		}
 		normalItemSize = size
-		
 	}
 	
 	override var collectionViewContentSize : CGSize {
@@ -119,7 +105,7 @@ class RLBCardsLayout: UICollectionViewLayout {
 		let ratio = (bounds.minY - (bounds.height * CGFloat(index)))/bounds.height
 		transform.m34 = 1.0 / -1000
 		if index == frontIndex {
-			let angle = CGFloat(M_PI_2) * (ratio)
+			let angle = CGFloat.pi/2 * ratio
 			let radius = size.height/2
 			transform = CATransform3DTranslate(transform, 0, (1-cos(angle))*radius, 0)
 			transform = CATransform3DTranslate(transform, 0, 0, -sin(angle)*radius)
@@ -137,6 +123,6 @@ class RLBCardsLayout: UICollectionViewLayout {
 	}
 	
 	override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
-		return invalidateOnBoundsChange
+		return true
 	}
 }
