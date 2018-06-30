@@ -1,0 +1,16 @@
+PODS:
+  - RLBCardsLayout (0.1.0)
+
+DEPENDENCIES:
+  - RLBCardsLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RLBCardsLayout
+
+SPEC CHECKSUMS:
+  RLBCardsLayout: 7dd2fbc384e88ef0be39c920dfbb1fcee31db5a1
+
+PODFILE CHECKSUM: 6e3ba15d97bb76c45693fd8785762c0eeaf24401
+
+COCOAPODS: 1.5.3

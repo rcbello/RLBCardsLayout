@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371AF597AE27021068D164E526EC6C36 /* Pods-RLBCardsLayoutDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878207765DBF45EDBEDFAA7D9CA68767 /* Pods-RLBCardsLayoutDemo-dummy.m */; };
+		4755B5B60683EE60A60B49EC1C6D884A /* Pods-RLBCardsLayoutDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7088DDE96164FBC3EBF37B51A79F51 /* Pods-RLBCardsLayoutDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67AC8DEFE5D18E986980487373C26C50 /* RLBCardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABCD5DC799ECDDC3D78B6F63A3D002 /* RLBCardsLayout.swift */; };
+		743A7D4D0C75517E6CACF8D713126F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		96D4B6F56187C4AB9597189AC568E0D6 /* RLBCardsLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4239D3B05C03508653E105A355DFFC /* RLBCardsLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB08F25CD2A278A3AD93A520D07AF725 /* RLBCardsLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF6154DEC63FDD236B6BF6D4E5AEF0F /* RLBCardsLayout-dummy.m */; };
+		D41FADB21A6CA8E39E9DBEC181944F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		511E09728FA72438E78580B1808D8AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89539CE1F1CE3FA0C65CD82E405F3722;
+			remoteInfo = RLBCardsLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4239D3B05C03508653E105A355DFFC /* RLBCardsLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLBCardsLayout-umbrella.h"; sourceTree = "<group>"; };
+		14B0E22C7F70A79408B36A6D5FD47E56 /* Pods-RLBCardsLayoutDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLBCardsLayoutDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A7088DDE96164FBC3EBF37B51A79F51 /* Pods-RLBCardsLayoutDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RLBCardsLayoutDemo-umbrella.h"; sourceTree = "<group>"; };
+		3A1D4A52A84F26053FF2E3535AB90C96 /* Pods-RLBCardsLayoutDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RLBCardsLayoutDemo-resources.sh"; sourceTree = "<group>"; };
+		436796A0556D777BB32095E4B9903CEE /* Pods-RLBCardsLayoutDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RLBCardsLayoutDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A3F0C3B89C103C2ABBCEF9329C79ECC /* RLBCardsLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLBCardsLayout-prefix.pch"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BBE6DF5CAD6C2DDDCBCB42A2BF4C5EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF6154DEC63FDD236B6BF6D4E5AEF0F /* RLBCardsLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RLBCardsLayout-dummy.m"; sourceTree = "<group>"; };
+		711CCA322921CC8CF4895E8342384815 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLBCardsLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		80A667F804070EADC1C41CCB18D8CA71 /* Pods-RLBCardsLayoutDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RLBCardsLayoutDemo.modulemap"; sourceTree = "<group>"; };
+		878207765DBF45EDBEDFAA7D9CA68767 /* Pods-RLBCardsLayoutDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RLBCardsLayoutDemo-dummy.m"; sourceTree = "<group>"; };
+		8844B6F742DC5DFC5BF656E4CF8C6EBD /* Pods-RLBCardsLayoutDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RLBCardsLayoutDemo-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A70A2E3100E971BE9F1DDB8AECEA7A6A /* Pods-RLBCardsLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLBCardsLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A932DB35EBCD2D6C7FA610646B5971CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5E898F36AD9072DF344B4F4736AD6C /* RLBCardsLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RLBCardsLayout.xcconfig; sourceTree = "<group>"; };
+		BAD3A912B6581D012D71D468E97D206B /* Pods_RLBCardsLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RLBCardsLayoutDemo.framework; path = "Pods-RLBCardsLayoutDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB85C2471F78BFB79279DC99C0ABB5B8 /* RLBCardsLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RLBCardsLayout.modulemap; sourceTree = "<group>"; };
+		D770D1476D3D175345B08EA8E1CA4001 /* RLBCardsLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RLBCardsLayout.framework; path = RLBCardsLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFABCD5DC799ECDDC3D78B6F63A3D002 /* RLBCardsLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RLBCardsLayout.swift; path = RLBCardsLayout/RLBCardsLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FC6026BEA98861861D67119129651F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41FADB21A6CA8E39E9DBEC181944F1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC168D832957D36A1ACDBCCE7694460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743A7D4D0C75517E6CACF8D713126F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251C24FBA0B19B60CFF9BDF5A2F82A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD3A912B6581D012D71D468E97D206B /* Pods_RLBCardsLayoutDemo.framework */,
+				D770D1476D3D175345B08EA8E1CA4001 /* RLBCardsLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D54AABAD4F73D2989C07D4DE3D5B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EB96C3744D6D715DB0837CB680C39 /* RLBCardsLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58DE7B51B3FC62C8304BCE624D4A0BE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A932DB35EBCD2D6C7FA610646B5971CD /* Info.plist */,
+				CB85C2471F78BFB79279DC99C0ABB5B8 /* RLBCardsLayout.modulemap */,
+				AC5E898F36AD9072DF344B4F4736AD6C /* RLBCardsLayout.xcconfig */,
+				6EF6154DEC63FDD236B6BF6D4E5AEF0F /* RLBCardsLayout-dummy.m */,
+				4A3F0C3B89C103C2ABBCEF9329C79ECC /* RLBCardsLayout-prefix.pch */,
+				0A4239D3B05C03508653E105A355DFFC /* RLBCardsLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RLBCardsLayout";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C4EB96C3744D6D715DB0837CB680C39 /* RLBCardsLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FFABCD5DC799ECDDC3D78B6F63A3D002 /* RLBCardsLayout.swift */,
+				58DE7B51B3FC62C8304BCE624D4A0BE6 /* Support Files */,
+			);
+			name = RLBCardsLayout;
+			path = RLBCardsLayout;
+			sourceTree = "<group>";
+		};
+		71BF5399774D06745A8943044DE630AF /* Pods-RLBCardsLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE6DF5CAD6C2DDDCBCB42A2BF4C5EC /* Info.plist */,
+				80A667F804070EADC1C41CCB18D8CA71 /* Pods-RLBCardsLayoutDemo.modulemap */,
+				436796A0556D777BB32095E4B9903CEE /* Pods-RLBCardsLayoutDemo-acknowledgements.markdown */,
+				14B0E22C7F70A79408B36A6D5FD47E56 /* Pods-RLBCardsLayoutDemo-acknowledgements.plist */,
+				878207765DBF45EDBEDFAA7D9CA68767 /* Pods-RLBCardsLayoutDemo-dummy.m */,
+				8844B6F742DC5DFC5BF656E4CF8C6EBD /* Pods-RLBCardsLayoutDemo-frameworks.sh */,
+				3A1D4A52A84F26053FF2E3535AB90C96 /* Pods-RLBCardsLayoutDemo-resources.sh */,
+				1A7088DDE96164FBC3EBF37B51A79F51 /* Pods-RLBCardsLayoutDemo-umbrella.h */,
+				711CCA322921CC8CF4895E8342384815 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */,
+				A70A2E3100E971BE9F1DDB8AECEA7A6A /* Pods-RLBCardsLayoutDemo.release.xcconfig */,
+			);
+			name = "Pods-RLBCardsLayoutDemo";
+			path = "Target Support Files/Pods-RLBCardsLayoutDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				33D54AABAD4F73D2989C07D4DE3D5B93 /* Pods */,
+				251C24FBA0B19B60CFF9BDF5A2F82A8B /* Products */,
+				947F516E842A971A9BBE58ED6688D615 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		947F516E842A971A9BBE58ED6688D615 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BF5399774D06745A8943044DE630AF /* Pods-RLBCardsLayoutDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F416CD8F2F9C90EA62CFF7919B01679 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D4B6F56187C4AB9597189AC568E0D6 /* RLBCardsLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E9E434D1023842C18B97046AD661C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4755B5B60683EE60A60B49EC1C6D884A /* Pods-RLBCardsLayoutDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89539CE1F1CE3FA0C65CD82E405F3722 /* RLBCardsLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23D378E5FA37A0E180F54782BDDB59B /* Build configuration list for PBXNativeTarget "RLBCardsLayout" */;
+			buildPhases = (
+				D919E911F47A09B05C3537B96330DD9C /* Sources */,
+				4DC168D832957D36A1ACDBCCE7694460 /* Frameworks */,
+				7F416CD8F2F9C90EA62CFF7919B01679 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLBCardsLayout;
+			productName = RLBCardsLayout;
+			productReference = D770D1476D3D175345B08EA8E1CA4001 /* RLBCardsLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ADE59A40486AD9D1EEA4F3A85F0F75B /* Pods-RLBCardsLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C85CFD9DD79AE98947B614AA22F5F28 /* Build configuration list for PBXNativeTarget "Pods-RLBCardsLayoutDemo" */;
+			buildPhases = (
+				C1A54997D929AABC428E3627A2017653 /* Sources */,
+				35FC6026BEA98861861D67119129651F /* Frameworks */,
+				A95E9E434D1023842C18B97046AD661C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D877C7C779F77A962288C19EDDF817B /* PBXTargetDependency */,
+			);
+			name = "Pods-RLBCardsLayoutDemo";
+			productName = "Pods-RLBCardsLayoutDemo";
+			productReference = BAD3A912B6581D012D71D468E97D206B /* Pods_RLBCardsLayoutDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 251C24FBA0B19B60CFF9BDF5A2F82A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ADE59A40486AD9D1EEA4F3A85F0F75B /* Pods-RLBCardsLayoutDemo */,
+				89539CE1F1CE3FA0C65CD82E405F3722 /* RLBCardsLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A54997D929AABC428E3627A2017653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371AF597AE27021068D164E526EC6C36 /* Pods-RLBCardsLayoutDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D919E911F47A09B05C3537B96330DD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB08F25CD2A278A3AD93A520D07AF725 /* RLBCardsLayout-dummy.m in Sources */,
+				67AC8DEFE5D18E986980487373C26C50 /* RLBCardsLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D877C7C779F77A962288C19EDDF817B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RLBCardsLayout;
+			target = 89539CE1F1CE3FA0C65CD82E405F3722 /* RLBCardsLayout */;
+			targetProxy = 511E09728FA72438E78580B1808D8AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48B1680EEA51651559B971B178D0E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70A2E3100E971BE9F1DDB8AECEA7A6A /* Pods-RLBCardsLayoutDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLBCardsLayoutDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50AD9B397CA03D4D1FD6575639FA46A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5E898F36AD9072DF344B4F4736AD6C /* RLBCardsLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLBCardsLayout/RLBCardsLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLBCardsLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLBCardsLayout/RLBCardsLayout.modulemap";
+				PRODUCT_MODULE_NAME = RLBCardsLayout;
+				PRODUCT_NAME = RLBCardsLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEBDA1CB607263AB1E542DB0633E6D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711CCA322921CC8CF4895E8342384815 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLBCardsLayoutDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA42C18D92EF727EBF97BFE25CA5BF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5E898F36AD9072DF344B4F4736AD6C /* RLBCardsLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLBCardsLayout/RLBCardsLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLBCardsLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLBCardsLayout/RLBCardsLayout.modulemap";
+				PRODUCT_MODULE_NAME = RLBCardsLayout;
+				PRODUCT_NAME = RLBCardsLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C85CFD9DD79AE98947B614AA22F5F28 /* Build configuration list for PBXNativeTarget "Pods-RLBCardsLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDA1CB607263AB1E542DB0633E6D5C /* Debug */,
+				48B1680EEA51651559B971B178D0E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23D378E5FA37A0E180F54782BDDB59B /* Build configuration list for PBXNativeTarget "RLBCardsLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42C18D92EF727EBF97BFE25CA5BF3B /* Debug */,
+				50AD9B397CA03D4D1FD6575639FA46A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

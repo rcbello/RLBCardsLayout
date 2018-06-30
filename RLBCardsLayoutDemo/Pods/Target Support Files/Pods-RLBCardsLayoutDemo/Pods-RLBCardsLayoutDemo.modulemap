@@ -1,0 +1,6 @@
+framework module Pods_RLBCardsLayoutDemo {
+  umbrella header "Pods-RLBCardsLayoutDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

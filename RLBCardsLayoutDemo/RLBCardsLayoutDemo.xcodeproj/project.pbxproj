@@ -12,10 +12,11 @@
 		A6F2F1061E529C0100DD2E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F2F1041E529C0100DD2E21 /* Main.storyboard */; };
 		A6F2F1081E529C0100DD2E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F2F1071E529C0100DD2E21 /* Assets.xcassets */; };
 		A6F2F10B1E529C0100DD2E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F2F1091E529C0100DD2E21 /* LaunchScreen.storyboard */; };
-		A6F2F1151E52ACCB00DD2E21 /* RLBCardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2F1141E52ACCB00DD2E21 /* RLBCardsLayout.swift */; };
+		EF7739022EC6B384D81F4954 /* Pods_RLBCardsLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424C0C5241768611B3A2B36C /* Pods_RLBCardsLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		424C0C5241768611B3A2B36C /* Pods_RLBCardsLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RLBCardsLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F2F0FD1E529C0100DD2E21 /* RLBCardsLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLBCardsLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F2F1001E529C0100DD2E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F2F1021E529C0100DD2E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,8 @@
 		A6F2F1071E529C0100DD2E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F2F10A1E529C0100DD2E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F2F10C1E529C0100DD2E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6F2F1141E52ACCB00DD2E21 /* RLBCardsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RLBCardsLayout.swift; path = ../RLBCardsLayout/RLBCardsLayout.swift; sourceTree = "<group>"; };
+		B63D31D04F25F0535D07B9B6 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLBCardsLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE51200D8BCE3353E63E2F1A /* Pods-RLBCardsLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLBCardsLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,18 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7739022EC6B384D81F4954 /* Pods_RLBCardsLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		973A4A7FD394ACA6CC2D8C63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B63D31D04F25F0535D07B9B6 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */,
+				CE51200D8BCE3353E63E2F1A /* Pods-RLBCardsLayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6F2F0F41E529C0100DD2E21 = {
 			isa = PBXGroup;
 			children = (
-				A6F2F1141E52ACCB00DD2E21 /* RLBCardsLayout.swift */,
 				A6F2F0FF1E529C0100DD2E21 /* RLBCardsLayoutDemo */,
 				A6F2F0FE1E529C0100DD2E21 /* Products */,
+				973A4A7FD394ACA6CC2D8C63 /* Pods */,
+				B142606A43CF0CFC7A1FCDA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +80,14 @@
 			path = RLBCardsLayoutDemo;
 			sourceTree = "<group>";
 		};
+		B142606A43CF0CFC7A1FCDA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424C0C5241768611B3A2B36C /* Pods_RLBCardsLayoutDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6F2F10F1E529C0100DD2E21 /* Build configuration list for PBXNativeTarget "RLBCardsLayoutDemo" */;
 			buildPhases = (
+				161D52C2CB0A2CC49A3F39A8 /* [CP] Check Pods Manifest.lock */,
 				A6F2F0F91E529C0100DD2E21 /* Sources */,
 				A6F2F0FA1E529C0100DD2E21 /* Frameworks */,
 				A6F2F0FB1E529C0100DD2E21 /* Resources */,
+				25BF0A6099C50657AC142472 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +158,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		161D52C2CB0A2CC49A3F39A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RLBCardsLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BF0A6099C50657AC142472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RLBCardsLayout/RLBCardsLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RLBCardsLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLBCardsLayoutDemo/Pods-RLBCardsLayoutDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6F2F0F91E529C0100DD2E21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,7 +204,6 @@
 			files = (
 				A6F2F1031E529C0100DD2E21 /* ViewController.swift in Sources */,
 				A6F2F1011E529C0100DD2E21 /* AppDelegate.swift in Sources */,
-				A6F2F1151E52ACCB00DD2E21 /* RLBCardsLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +340,7 @@
 		};
 		A6F2F1101E529C0100DD2E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63D31D04F25F0535D07B9B6 /* Pods-RLBCardsLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RLBCardsLayoutDemo/Info.plist;
@@ -293,6 +355,7 @@
 		};
 		A6F2F1111E529C0100DD2E21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE51200D8BCE3353E63E2F1A /* Pods-RLBCardsLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RLBCardsLayoutDemo/Info.plist;
