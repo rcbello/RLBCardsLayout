@@ -42,7 +42,7 @@ class RLBCardsLayout: UICollectionViewLayout {
 		let bounds = collectionView.bounds
 		let frontRow = max(Int((bounds.maxY-1)/bounds.height), 0 )
 		let threeBack = max(frontRow - RLBCardsLayout.visibleCellCount, 0)
-		let attributes = (threeBack...frontRow).flatMap { row -> UICollectionViewLayoutAttributes? in
+        let attributes = (threeBack...frontRow).compactMap { row -> UICollectionViewLayoutAttributes? in
 			guard let indexPath = indexPathForIndex(row) else { return nil }
 			return layoutAttributesForItem(at: indexPath)
 		}
